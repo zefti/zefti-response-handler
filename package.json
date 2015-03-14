@@ -1,0 +1,9 @@
+{
+  "name" : "zefti-response-handler",
+  "description" : "Zefti Response Handler",
+  "author" : "Ryan Ogle",
+  "dependencies" : {
+  },
+  "private" : false,
+  "version" : "0.0.1"
+}
