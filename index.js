@@ -1,5 +1,5 @@
 var config = require('zefti-config');
-var utils = require('zefti-utils')({});
+var utils = require('zefti-utils');
 module.exports = function(options) {
   var responseFields = null;
   var responseFieldsOption = options.responseFields;
