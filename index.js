@@ -14,7 +14,7 @@ module.exports = function(options) {
   function responseHandler(payload, cb) {
     var response = {};
     responseFields.forEach(function (field) {
-      if (payload[field]) {
+      if (payload && payload[field]) {
         response[field] = payload[field];
       }
     });
