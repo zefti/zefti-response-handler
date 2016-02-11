@@ -67,9 +67,10 @@ var errorHandler = function(res, err){
 module.exports = function(options){
   var responseFields = null;
   var responseFieldsOption = options.responseFields;
+  var responseValidation = options.responseValidation;
 
   if (typeof responseFieldsOption === 'string') {
-    responseFields = config.response[responseFieldsOption];
+    responseFields = responseValidation[responseFieldsOption];
   } else {
     responseFields = responseFieldsOption;
   }
